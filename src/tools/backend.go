@@ -16,5 +16,5 @@ func GetArg() string {
 		fmt.Println("Usage Error: Too Many Arguments, use 'electrix help' instead.")
 		os.Exit(1)
 	}
-	return "nil"
+	return "nil" // Program Should Never Reach Here
 }
